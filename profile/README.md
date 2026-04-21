@@ -114,22 +114,7 @@ Developer pushes code  (main or develop branch)
 
 ---
 
-##  Microservices at a Glance
 
-| Service | Lang | Port | Dev Registry | Prod Registry | Special |
-|---|---|---|---|---|---|
-| **adservice** | Java 21 | 9555 | DockerHub | **GHCR** | Only GHCR prod push |
-| **authservice** | Go | 8081 | DockerHub | DockerHub | JWT, MongoDB, init-container |
-| **cartservice** | — | 7070 | DockerHub | DockerHub | Redis-backed |
-| **checkoutservice** | — | 5050 | DockerHub | DockerHub | Orchestrates all services |
-| **currencyservice** | — | 7000 | DockerHub | DockerHub | Random error flag |
-| **emailservice** | — | 8080 | DockerHub | DockerHub | Notification sender |
-| **frontend** | Node.js | 8080 | DockerHub | DockerHub | **Argo Rollouts Blue-Green** |
-| **paymentservice** | Node.js | 50051 | DockerHub | DockerHub | Razorpay, MongoDB persistence |
-| **productcatalogservice** | Go | 3550 | DockerHub | DockerHub | MongoDB + local JSON fallback |
-| **recommendationservice** | — | 8080 | DockerHub | DockerHub | — |
-| **shippingservice** | — | 50051 | DockerHub | DockerHub | **GitHub OIDC native CD** |
-| **assistantservice** | — | 8080 | DockerHub | DockerHub | Gemini AI chatbot |
 
 ---
 
