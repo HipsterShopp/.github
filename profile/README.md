@@ -3,7 +3,7 @@
 > A production-grade, cloud-native e-commerce platform powered by 12 microservices, dual Kubernetes clusters, ArgoCD GitOps, GitHub OIDC, Argo Rollouts Blue-Green deployments, and a fully shared CI pipeline.
 
 ## Kubernetes Repo and CI workflows : [HipsterShop](https://github.com/Yampss/HipsterShop)
-## Documentation of final Project : [Documentation]([https://github.com/Yampss/HipsterShop/.github](https://github.com/HipsterShopp/.github))
+## Documentation of final Project : [Documentation](https://github.com/HipsterShopp/.github)
 ---
 
 ##  What Makes This Special
